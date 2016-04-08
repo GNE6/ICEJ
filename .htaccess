@@ -1,0 +1,56 @@
+ErrorDocument 403 /403.html
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+
+Options +FollowSymlinks
+RewriteEngine on
+RewriteOptions Inherit
+
+RewriteRule	^accueil$ index.php	[L]
+RewriteRule	^aimer_israel$ connaitreisrael.php [L]
+RewriteRule	^bureau$ bureauicej.php [L]
+RewriteRule ^photos$ portfolio.php [L]
+RewriteRule ^videos$ videotheque.php [L]
+RewriteRule	^contacts$ contacts.php [L]
+
+RewriteRule ^benin$ sectionbenin_actualites.php [L]
+RewriteRule ^bureau_benin$ sectionbenin_bureau.php [L]
+RewriteRule ^activites_benin$ sectionbenin_programme_activites.php [L]
+
+RewriteRule ^burkina$ sectionburkina_actualites.php [L]
+RewriteRule ^bureau_burkina$ sectionburkina_bureau.php [L]
+RewriteRule ^activites_burkina$ sectionburkina_programme_activites.php [L]
+
+RewriteRule ^cotedivoire$ sectioncotedivoire_actualites.php [L]
+RewriteRule ^bureau_cotedivoire$ sectioncotedivoire_bureau.php [L]
+RewriteRule ^activites_cotedivoire$ sectioncotedivoire_programme_activites.php [L]
+
+RewriteRule ^ghana$ sectionghana_actualites.php [L]
+RewriteRule ^bureau_ghana$ sectionghana_bureau.php [L]
+RewriteRule ^activites_ghana$ sectionghana_programme_activites.php [L]
+
+RewriteRule ^guinee$ sectionguinnee_actualites.php [L]
+RewriteRule ^bureau_guinee$ sectionguinee_bureau.php [L]
+RewriteRule ^activites_guinnee$ sectionguinnee_programme_activites.php [L]
+
+RewriteRule ^liberia$ sectionliberia_actualites.php [L]
+RewriteRule ^bureau_liberia$ sectionliberia_bureau.php [L]
+RewriteRule ^activites_liberia$ sectionliberia_programme_activites.php [L]
+
+RewriteRule ^mali$ sectionmali_actualites.php [L]
+RewriteRule ^bureau_mali$ sectionmali_bureau.php [L]
+RewriteRule ^activites_mali$ sectionmali_programme_activites.php [L]
+
+RewriteRule ^niger$ sectionniger_actualites.php [L]
+RewriteRule ^bureau_niger$ sectionniger_bureau.php [L]
+RewriteRule ^activites_niger$ sectionniger_programme_activites.php [L]
+
+RewriteRule ^senegal$ sectionsenegal_actualites.php [L]
+RewriteRule ^bureau_senegal$ sectionsenegal_bureau.php [L]
+RewriteRule ^activites_senegal$ sectionsenegal_programme_activites.php [L]
+
+RewriteRule ^togo$ sectiontogo_actualites.php [L]
+RewriteRule ^bureau_togo$ sectiontogo.php [L]
+RewriteRule ^activite_togo$ sectiontogo_programme_activites.php [L]
+
+

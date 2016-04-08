@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fiche/
+Disallow: /font/
+Disallow: /images/
+Disallow: /js/
+Disallow: /mail/
+Disallow: /nbproject/
+Disallow: /403.html
+Disallow: /404.html
+Disallow: /500.html
+Sitemap: http://www.icej-ao.org/sitemap.xml
